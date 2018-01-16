@@ -1,6 +1,6 @@
 # bookings-app
 
-This project's purpose is to booking and pay for accommodation.
+This project's purpose is to book and pay for accommodation.
 
 ## Build & development
 
