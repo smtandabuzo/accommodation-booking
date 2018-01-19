@@ -34,9 +34,8 @@ angular.module('bookingsAppApp')
         id: 2,
         label: 'MasterCard'
       }
-    ]
+    ];
     this.isCreditCard = false;
     this.selectedCreditCard = this.creditCardTypes[0];
     this.selected = this.paymentItems[0];
-    
   });
