@@ -1,23 +1,175 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+<div class="container">
+  <form class="form-horizontal" role="form">
+    <div class="row">
+      <span></span>
+      <div class="h1">Dates</div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="col-sm-3 control-label">Arrival</label>
+          <div class="col-sm-9">
+              <input type="text" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="col-sm-3 control-label">Leaving</label>
+          <div class="col-sm-9">
+              <input type="text" class="form-control">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+       <div class="col-md-6">
+        <div class="form-group">
+          <label class="col-sm-3 control-label">No. of nights</label>
+          <div class="col-sm-6">
+              <input type="text" class="form-control">
+          </div>
+        </div>
+      </div>
+       <div class="col-md-6">
+        <div class="form-group">
+          <label class="col-sm-6 control-label">Check available rooms</label>
+          <div class="col-sm-6">
+              <button class="btn btn-default" type="button">Check available rooms</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="container">
+  <form class="form-horizontal" role="form">
+    <div class="row">
+      <span></span>
+      <div class="h1">Client Details</div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="col-sm-3 control-label">Name</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="col-sm-3 control-label">Surname</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="col-sm-3 control-label">Phone Number</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="col-sm-3 control-label">Email</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <span></span>
+      <div class="h1">Payment Information</div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="col-sm-3">Payment Type</label>
+          <div class="col-sm-9">
+            <select class="form-control"
+            ng-model="main.selected"
+            ng-options="paymentItem as paymentItem.label for paymentItem in main.paymentItems track by paymentItem.id">
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section ng-if="main.selected.label === 'Credit Card'">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="col-sm-3 control-label">Credit Card Type</label>
+            <div class="col-sm-9">
+              <select class="form-control"
+            ng-model="main.selectedCreditCard"
+            ng-options="creditCardType as creditCardType.label for creditCardType in main.creditCardTypes track by creditCardType.id">
+            </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="col-sm-3 control-label">Card Number</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="col-sm-3 control-label">Name on Card</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="col-sm-3 control-label">CVC</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label class="col-sm-3 control-label">Expiry Date</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control">
+            </div>
+            <div class="col-sm-4">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="row">
+      <div class="col-md-10">
+        <div class="form-group">
+          <label class="col-sm-5 control-label">Terms & Conditions</label>
+          <div class="col-sm-1">
+          <input type="checkbox">
+          </div>
+          <div class="col-sm-6">
+          <button class="btn btn-default" type="button">Complete Booking</button>
+          </div>
+      </div>
+      </div>
+    </div>
+  </form>
 </div>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
-</div>
