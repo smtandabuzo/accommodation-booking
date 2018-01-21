@@ -7,6 +7,7 @@
  * # DateSelectorCtrl
  * Controller of the bookingsAppApp
  */
+angular.module('myModule', ['ui.bootstrap']);
 angular.module('bookingsAppApp')
   .controller('DateSelectorCtrl', function ($scope) {
     this.awesomeThings = [
@@ -14,9 +15,7 @@ angular.module('bookingsAppApp')
       'AngularJS',
       'Karma'
     ];
-
-
-  $scope.today = function() {
+    $scope.today = function() {
     $scope.dt = new Date();
   };
   $scope.today();
