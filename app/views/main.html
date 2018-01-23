@@ -87,7 +87,113 @@
         </div>
       </div>
     </div>
+  </form>
+</div>
+<div class="container">
+  <form class="form-horizontal" role="form">
     <div class="row">
+      <div class="h1">Select Accommodation</div>
+      
+     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Single Bedroom
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/single-bedroom-thumb.jpg" alt="">
+          </div>
+          <div class="col-md-6">
+            Accommodation suitable for one person with free onsite parking, flat screen tv with DSTV, tea/coffee station and en-suite bathroom. Meals are available on request at an extra cost.
+          </div>
+        </div>
+        
+        <button class="btn btn-default">Book Now</button>
+        
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Double Bedroom
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/double-bedroom-thumb.jpg" alt="">
+          </div>
+          <div class="col-md-6">
+            Suitable for up to two people. Consists of a double bed with en suite bathroom, air conditioning, an electric blanket, two bed side lamps, writing area, tea/coffee making facility, bar fridge and microwave. Meals are available on request at an extra cost.
+          </div>
+        </div>
+        
+        <button class="btn btn-default">Book Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Superior Queen Bedroom
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/superior-queen-thumb.jpg" alt="">
+          </div>
+          <div class="col-md-6">
+            Accommodates up to 2 people and consists of a queen size bed, air conditioning, an electric blanket, free on site parking, en suite bathroom, flat screen tv with DSTV, wardrobe, bar fridge, microwave, writing area and a coffee/tea making facility. Meals are available on request at an extra cost.
+            
+            <button class="btn btn-default">Book Now</button>
+          </div>
+        </div>
+        <button class="btn btn-default">Book Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFour">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Family Bedroom
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/family-bedroom-thumb.jpg" alt="">
+          </div>
+          <div class="col-md-6">
+            Accommodates up to 3 people, consists of a double and single bed, free onsite parking, flat screen tv with DSTV, wardrobe, bar fridge, microwave, mobile ironing board, writing area, tea/coffee making facility with en-suite bathroom. Meals are available on request at an extra cost.
+          </div>
+        </div>
+        <button class="btn btn-default">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </form>
+</div>
+ <div class="container">
+ <div class="row">
       <span></span>
       <div class="h1">Payment Information</div>
     </div>
@@ -104,7 +210,8 @@
         </div>
       </div>
     </div>
-    <section ng-if="main.selected.label === 'Credit Card'">
+  </div>
+  <section ng-if="main.selected.label === 'Credit Card'">
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
@@ -159,78 +266,6 @@
       </div>
     </section>
 
-    
-  </form>
-</div>
-<div class="container">
-  <form class="form-horizontal" role="form">
-    <div class="row">
-      <div class="h1">Select Accommodation</div>
-      
-     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Single Bedroom
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-        Accommodation suitable for one person with free onsite parking, flat screen tv with DSTV, tea/coffee station and en-suite bathroom. Meals are available on request at an extra cost.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Double Bedroom
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        Suitable for up to two people. Consists of a double bed with en suite bathroom, air conditioning, an electric blanket, two bed side lamps, writing area, tea/coffee making facility, bar fridge and microwave. Meals are available on request at an extra cost.
-        <a href="" role="button">Book Now</a>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Superior Queen Bedroom
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-        Accommodates up to 2 people and consists of a queen size bed, air conditioning, an electric blanket, free on site parking, en suite bathroom, flat screen tv with DSTV, wardrobe, bar fridge, microwave, writing area and a coffee/tea making facility. Meals are available on request at an extra cost.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingFour">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          Family Bedroom
-        </a>
-      </h4>
-    </div>
-    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-      <div class="panel-body">
-        Accommodates up to 3 people, consists of a double and single bed, free onsite parking, flat screen tv with DSTV, wardrobe, bar fridge, microwave, mobile ironing board, writing area, tea/coffee making facility with en-suite bathroom. Meals are available on request at an extra cost.
-      </div>
-    </div>
-  </div>
-</div>
-
-
-    </div>
-  </form>
-</div>
 <div class="container">
 <div class="row">
       <div class="col-md-10">
