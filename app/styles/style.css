@@ -83,7 +83,7 @@ h4 {
 }
 .global.indent {
 	padding: 141px 0 0 0;
-	background: #e3dce0 url(../img/pattern4.png) repeat;
+	background: #e3dce0 url(../images/pattern4.png) repeat;
 }
 .center {
 	text-align: center;
@@ -94,7 +94,7 @@ h4 {
 /*-----menu-----*/
 .menuBox {
 	padding: 50px 0 57px 0;
-	background: url(../img/pattern2.png) repeat;
+	background: url(../images/pattern2.png) repeat;
 	position: relative;
 	z-index: 1;
 }
@@ -198,7 +198,7 @@ nav.tm_navbar .sub-menu > ul li a {
 }
 nav.tm_navbar .sub-menu > .submenu li span {
 	display: inline-block;
-	background: url(../img/menu-marker2.png) no-repeat;
+	background: url(../images/menu-marker2.png) no-repeat;
 	width: 6px;
 	height: 7px;
 	position: relative;
