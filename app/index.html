@@ -9,11 +9,11 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="styles/style.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/style.css">
     <!-- endbuild -->
   </head>
   <body ng-app="bookingsAppApp">
@@ -23,11 +23,11 @@
 
     <!-- Add your site or application content here -->
     <header>
-      <div class="container">
+      <div class="container-fluid">
         <h1 class="navbar-brand navbar-brand_"><a href=""><img src="images/logo.png" alt="" class="logo_large"><img src="images/logo_medium.png" alt="" class="logo_medium"><span></span></a></h1>
       </div>
       <div class="follow-box">
-        <div class="container">
+        <div class="container-fluid">
           <ol class="follow_icon">
             <li><a href="https://www.facebook.com/idwalalamguesthouse/"><img src="images/follow_icon1.png" alt="Idwala Lam Mthatha - Facebook Page"></a></li>
           </ol>
@@ -42,7 +42,7 @@
     </header>
     <div></div>
     <div class="menuBox">
-      <div class="container">
+      <div class="container-fluid">
         <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" title="navigation" role="navigation">
             <ol class="nav sf-menu clearfix">
 
@@ -51,13 +51,13 @@
       </div>
     </div>
     <div class="bg_pic"></div>
-    <div class="container">
+    <div class="container-fluid">
     <div ng-view=""></div>
     </div>
 
     <div class="footer">
-      <div class="container">
-       
+      <div class="container-fluid">
+
       </div>
     </div>
 
@@ -94,8 +94,8 @@
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/directives/date-selector.js"></script>
         <script src="scripts/controllers/date-selector.js"></script>
-        
-        
+
+
         <!-- endbuild -->
 </body>
 </html>
