@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 body {
-	background: #3f3347 url(../img/pattern3.png) repeat;
+	background: #3f3347 url(../images/pattern3.png) repeat;
 	font: 14px 'Times New Roman', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 1.428571429;
 	color: #83747f;
@@ -259,7 +259,7 @@ header {
 	padding: 0;
 	position: relative;
 	z-index: 11;
-	background: url(../img/pattern.png) repeat;
+	background: url(../images/pattern.png) repeat;
 }
 footer {
 	padding: 40px 0 14px 0;
@@ -436,7 +436,7 @@ footer a:hover {
 	filter: alpha(opacity=100) !important;
 }
 .bg_pic {
-	background: url(../img/bg_pic2.jpg) center top no-repeat;
+	background: url(../images/bg_pic2.jpg) center top no-repeat;
 	height: 285px;
 	width: 100%;
 	position: absolute;
@@ -603,7 +603,7 @@ footer a:hover {
 }
 .center-box {
 	padding: 58px 0 20px 0;
-	background: url(../img/bg_pic1.jpg) center top fixed no-repeat;
+	background: url(../images/bg_pic1.jpg) center top fixed no-repeat;
 	text-align: center;
 }
 .center-box figure {
@@ -627,7 +627,7 @@ footer a:hover {
 	margin-bottom: 30px;
 }
 .newsform-box {
-	background: url(../img/bg_pic2.jpg) center top fixed no-repeat;
+	background: url(../images/bg_pic2.jpg) center top fixed no-repeat;
 	padding: 52px 0;
 	margin-bottom: 60px;
 }
@@ -717,7 +717,7 @@ footer a:hover {
 	margin-bottom: 39px;
 }
 .welcome-box {
-	background: #e3dce0 url(../img/pattern4.png) repeat;
+	background: #e3dce0 url(../images/pattern4.png) repeat;
 	padding: 45px 0;
 	text-align: center;
 }
